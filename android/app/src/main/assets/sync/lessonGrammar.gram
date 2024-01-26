@@ -1,0 +1,4 @@
+#JSGF V1.0;
+
+grammar lessonGrammar;
+public <smart> = (level 1 | level 2);

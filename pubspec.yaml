@@ -1,0 +1,112 @@
+name: namer_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: '>=2.19.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  english_words: ^4.0.0
+  provider: ^6.0.5
+  http: ^1.1.0
+  file_picker: ^5.5.0
+  flutter_tts: ^3.8.5
+  flutter_dotenv: ^5.1.0
+  http_parser: ^4.0.2
+  permission_handler: ^11.0.0
+  audio_session: ^0.1.18
+  path_provider: ^2.1.1
+  flutter_sound: ^9.2.13
+  speech_to_text: ^6.4.1
+  web_socket_channel: ^2.4.0
+  porcupine_flutter: ^2.2.2
+  auto_scroll: ^0.2.0
+  card_swiper: ^3.0.1
+  google_fonts: ^6.1.0
+  image_picker: ^1.0.4
+  animated_custom_dropdown: ^2.0.0
+  stroke_text: ^0.0.2
+  flutter_easyloading: ^3.0.5
+  go_router: ^12.1.1
+  fluttertoast: ^8.2.4
+  connectivity_plus: ^5.0.2
+  retry: ^3.1.2
+  async: ^2.11.0
+  just_audio: ^0.9.36
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+flutter_icons:
+  android: true
+  image_path: "assets/images/logo.png"
+  flutter_lints: ^2.0.0
+  
+
+flutter:
+  uses-material-design: true
+  assets:
+    - devconfig.env
+    - assets/
+    - assets/navigationguide/
+    - assets/images/kidlearning.jpg
+    - assets/images/kidlearning2.jpg
+    - assets/images/bg1.jpg
+    - assets/images/bg2.jpg
+    - assets/images/bg3.jpg
+    - assets/images/bg4.jpg
+    - assets/images/logo.png
+    - assets/images/lesson_bg1.jpg
+    - assets/images/lesson_bg2.jpg
+    - assets/images/lesson_bg3.jpg
+    - assets/images/lesson_bg4.jpg
+    - assets/images/practice_bg1.jpg
+    - assets/images/practice_bg2.jpg
+    - assets/images/practice_bg3.jpg
+    - assets/images/practice_bg4.jpg
+    - assets/images/lc_bg.jpg
+    - assets/images/spelling_bg.jpg
+    - assets/images/grammar_bg.png
+    - assets/images/intonation_bg.jpg
+    - assets/recorder/recorder-remove.wav
+    - assets/recorder/recorder-start.wav
+    - assets/lessons/full_story.wav
+    - assets/navigationguide/intro.mp3
+    - assets/navigationguide/after_intro.mp3
+    - assets/navigationguide/noun.mp3
+    - assets/navigationguide/grammar.mp3
+    - assets/navigationguide/instruction_in_practice.mp3
+    - assets/guide_speaker/grammar_lesson_l1_choices.mp3
+    - assets/guide_speaker/grammar_lesson_l2_choices.mp3
+    - assets/guide_speaker/grammar_lesson_l3_choices.mp3
+    - assets/guide_speaker/grammar_lesson_l4_choices.mp3
+    - assets/guide_speaker/grammar_practice_choices.mp3
+    - assets/guide_speaker/levels_choices.mp3
+    - assets/guide_speaker/lesson_choices.mp3
+    - assets/guide_speaker/grammar_lessons_choices.mp3
+    - assets/guide_speaker/l3_l4.mp3
+    - assets/guide_speaker/home_choices.mp3
+    - assets/guide_speaker/lesson_or_practice.mp3
+    - assets/guide_speaker/wrong_choice.mp3
+    - assets/guide_speaker/didnotunderstand.mp3
+    - assets/guide_speaker/grammar_instructions.mp3
+    - assets/guide_speaker/intonation_instructions.mp3
+    - assets/guide_speaker/lc_instructions.mp3
+    - assets/guide_speaker/spelling_instruction.mp3
+    - assets/guide_speaker/switch_to_manual.mp3
+    - assets/guide_speaker/practice_intro.mp3
+    - assets/guide_speaker/practices.mp3
+    - assets/guide_speaker/rpt_mne_menu_ins.mp3
+    - assets/guide_speaker/rpt_grammar.mp3
+    - assets/guide_speaker/rpt_prctice_intro.mp3
+    - assets/guide_speaker/lesson_confirmation.mp3
