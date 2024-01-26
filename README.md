@@ -1,2 +1,3 @@
 # eyelearn-flutter
- an e-learning app base on flutter
+ an e-learning app based on flutter
+
