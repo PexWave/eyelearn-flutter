@@ -34,5 +34,5 @@ Postgresql
 
 
 HARDWARE REQUIREMENTS:
-   ANDROID 11 and above
+   ANDROID 11 and above 
 
