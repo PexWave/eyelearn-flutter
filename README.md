@@ -32,3 +32,7 @@ Django Ninja
 Flutter
 Postgresql
 
+
+HARDWARE REQUIREMENTS:
+   ANDROID 11+
+
