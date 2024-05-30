@@ -1,36 +1,80 @@
-# eyelearn-flutter
-This FLutter app is designed to facilitate learning basic grammar for primary school pupils, specifically catering to grades 1 to 4. It leverages OpenAI's Whisper model for accurate and natural speech synthesis, creating a dynamic learning experience. The app incorporates voice commands for intuitive navigation and uses PocketSphinx for reliable voice recognition.
 
-As part of the app's functionality, text from the synthesized lessons is displayed on the screen, providing a visual reinforcement of the spoken content. The combination of interactive voice commands and visually presented text enhances the learning process, making it both educational and fun for primary school students.
+# EyeLearn Flutter
 
- CONTENTS:
-     Lessons:
-         Grammar
-         Vocabulary
-         Oral
-         Intonation
-         
-     Practices:
-         Intonation
-         Listening Comprehension
-         Grammar
-         Spelling
+EyeLearn is a Flutter app designed to facilitate learning basic grammar for primary school pupils, specifically catering to grades 1 to 4. It leverages OpenAI's Whisper model for accurate and natural speech synthesis, creating a dynamic and engaging learning experience. The app incorporates voice commands for intuitive navigation and uses PocketSphinx for reliable voice recognition.
 
- HOW IT WORKS:
-In my Flutter app, I employ PocketSphinx to actively listen for a designated keyword. When the keyword is detected, a corresponding function in Flutter is invoked to initiate the audio recording process. The recorded audio is subsequently transmitted to a Django Ninja API for advanced processing.
+## Key Features
 
-This approach forms the foundation for implementing voice commands within the app, serving both navigation and quiz-related functionalities. Users can effortlessly interact with the app using voice prompts, creating a more intuitive and engaging user experience.
+- **Voice Commands**: Use voice prompts for navigation and interaction, making the app intuitive and user-friendly.
+- **Text-to-Speech**: OpenAI's Whisper model provides accurate and natural speech synthesis.
+- **Visual Reinforcement**: Synthesized lesson text is displayed on the screen for better understanding and retention.
 
-The Django Ninja API plays a crucial role in handling the received audio data. It processes the information, allowing the app to interpret and respond to voice commands effectively. This mechanism not only facilitates seamless navigation but also enables users to provide spoken answers during quizzes, enhancing the app's versatility.
+## Contents
 
+### Lessons
+- Grammar
+- Vocabulary
+- Oral Skills
+- Intonation
 
+### Practices
+- Intonation
+- Listening Comprehension
+- Grammar
+- Spelling
 
-TECH STACK:
-Django Ninja
-Flutter
-Postgresql
+## How It Works
 
+1. **Voice Command Detection**:
+   - The app uses PocketSphinx to actively listen for a designated keyword.
+   - Upon detecting the keyword, a corresponding function in Flutter is triggered to initiate the audio recording process.
 
-HARDWARE REQUIREMENTS:
-   ANDROID 11 and above 
+2. **Audio Processing**:
+   - The recorded audio is transmitted to a Django Ninja API for advanced processing.
+   - The API handles the received audio data, interpreting and responding to voice commands effectively.
+
+3. **Interactive Learning**:
+   - Users can navigate the app and participate in quizzes using voice commands.
+   - Spoken answers during quizzes are processed by the Django Ninja API, enhancing the app's versatility.
+
+## Tech Stack
+
+- **Frontend**: Flutter
+- **Backend**: Django Ninja
+- **Database**: PostgreSQL
+- **Voice Recognition**: PocketSphinx
+- **Text-to-Speech**: OpenAI Whisper
+
+## Hardware Requirements
+
+- **Operating System**: Android 11 and above
+
+## Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Django Ninja setup
+- PostgreSQL database
+
+### Installation
+
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/yourusername/eyelearn-flutter.git
+    cd eyelearn-flutter
+    ```
+
+2. **Install Dependencies**:
+    ```bash
+    flutter pub get
+    ```
+
+3. **Set Up Environment Variables**:
+    Create a `.env` file and add your configuration details, including the Django Ninja API URL and database credentials.
+
+4. **Run the App**:
+    ```bash
+    flutter run
+    ```
 
