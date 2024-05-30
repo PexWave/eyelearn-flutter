@@ -1,5 +1,9 @@
-
 # EyeLearn Flutter
+
+![img1](https://github.com/PexWave/eyelearn-flutter/assets/139829241/88574452-19a8-44fd-87a4-4528f2c23246)
+![img2](https://github.com/PexWave/eyelearn-flutter/assets/139829241/4df18ef3-8523-4042-8442-f0c5e8bfa3f9)'
+![img3](https://github.com/PexWave/eyelearn-flutter/assets/139829241/4029e818-a6b1-47f2-a7f5-f49a5299fed8)
+![img4](https://github.com/PexWave/eyelearn-flutter/assets/139829241/de6d6a61-6d45-4acd-a69a-3bbfb1777497)
 
 EyeLearn is a Flutter app designed to facilitate learning basic grammar for primary school pupils with visual impairment, specifically catering to grades 1 to 4. It leverages OpenAI's Whisper model for accurate and natural speech synthesis, creating a dynamic and engaging learning experience. The app incorporates voice commands for intuitive navigation and uses PocketSphinx for reliable voice recognition.
 
