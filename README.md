@@ -61,7 +61,7 @@ EyeLearn is a Flutter app designed to facilitate learning basic grammar for prim
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/eyelearn-flutter.git
+    git clone https://github.com/PexWave/eyelearn-flutter.git
     cd eyelearn-flutter
     ```
 
