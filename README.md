@@ -1,7 +1,5 @@
 # eyelearn-flutter
- An e-learning app based on flutter
-
-This Android app is designed to facilitate learning basic grammar for primary school pupils, specifically catering to grades 1 to 4. It leverages OpenAI's Whisper model for accurate and natural speech synthesis, creating a dynamic learning experience. The app incorporates voice commands for intuitive navigation and uses PocketSphinx for reliable voice recognition.
+This FLutter app is designed to facilitate learning basic grammar for primary school pupils, specifically catering to grades 1 to 4. It leverages OpenAI's Whisper model for accurate and natural speech synthesis, creating a dynamic learning experience. The app incorporates voice commands for intuitive navigation and uses PocketSphinx for reliable voice recognition.
 
 As part of the app's functionality, text from the synthesized lessons is displayed on the screen, providing a visual reinforcement of the spoken content. The combination of interactive voice commands and visually presented text enhances the learning process, making it both educational and fun for primary school students.
 
