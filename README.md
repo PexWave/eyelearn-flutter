@@ -1,7 +1,7 @@
 
 # EyeLearn Flutter
 
-EyeLearn is a Flutter app designed to facilitate learning basic grammar for primary school pupils, specifically catering to grades 1 to 4. It leverages OpenAI's Whisper model for accurate and natural speech synthesis, creating a dynamic and engaging learning experience. The app incorporates voice commands for intuitive navigation and uses PocketSphinx for reliable voice recognition.
+EyeLearn is a Flutter app designed to facilitate learning basic grammar for primary school pupils with visual impairment, specifically catering to grades 1 to 4. It leverages OpenAI's Whisper model for accurate and natural speech synthesis, creating a dynamic and engaging learning experience. The app incorporates voice commands for intuitive navigation and uses PocketSphinx for reliable voice recognition.
 
 ## Key Features
 
